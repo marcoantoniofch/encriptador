@@ -1,0 +1,84 @@
+
+auto{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+body{
+    
+   /* background-image: url("/img/fondo1.jpg");*/
+    background-repeat: no-repeat;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.entradaTexto {
+    margin-top: 40px;
+}
+/*
+button{
+    background-color: transparent;
+    font-weight: semibold;
+    color: #444444;
+    font-size: 1rem 1.5rem;
+    border: 2px solid #eeeeee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #cccccc -5rem -.5rem 1rem #ffffff;
+}
+button:hover{
+    box-shadow: .5rem .5rem 1rem #ffffff -5rem -.5rem 1rem #ffffff;
+}
+button:active{
+    box-shadow: inset .5rem .5rem 1rem #ffffff inset -2rem -.2rem -1rem #ffffff;
+}*/
+
+.entradaTexto{
+   margin-left: 90px;  
+}
+.outMensaje {
+    position: relative;
+    margin-top: 40px;
+    /*margin-left: 90px;*/
+    background-image: url("/img/mensaje.svg");
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: 270px;
+}
+
+.btnCopiar {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 205px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+
+.capturaTexto {
+    margin-left: 100px;
+   
+    /*
+    background-color: darkblue;
+    color: white;
+    border-radius: 2px;*/
+}
+
+.btnDesencriptar {
+    margin-left: 30px;
+}
+
+.informacion {
+    font-size: 15px;
+}
